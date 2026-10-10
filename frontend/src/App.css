@@ -1,0 +1,59 @@
+.title {
+  margin: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/* From Uiverse.io by barisdogansutcu */ 
+.analyse-btn {
+  padding: 13px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: hsl(261, 46%, 55%);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+.analyse-btn:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261, 46%, 55%);;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+.analyse-btn:active {
+  letter-spacing: 3px;
+  background-color: hsl(261, 46%, 55%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+
+/* From Uiverse.io by ErzenXz */ 
+.url-input {
+  background-color: rgb(220, 221, 226);
+  width: 100%;
+  max-width: 220px;
+  height: 45px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+}
+.url-input:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+.url-input:active {
+  transform: scale(0.95);
+}
+.url-input:focus {
+  border: 2px solid grey;
+}
